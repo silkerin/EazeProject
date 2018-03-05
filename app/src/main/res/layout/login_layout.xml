@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.t_ia_140978.eazeproject.Login_Activity"
+    android:orientation="vertical"
+    android:background="@color/darkgrey"
+    android:padding="16dp"
+    >
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="80dp"
+        android:src="@drawable/Eazelogo"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="60dp"/>
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Professional &amp; Secure Medical\nCannabis Delivery Service"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        />
+
+    <EditText
+        android:id="@+id/inicio_login"
+        android:inputType="textEmailAddress"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:textColor="@color/darkgrey"
+        android:textSize="28sp"
+        android:layout_marginTop="15dp"
+        android:hint="Email"
+        android:layout_gravity="center_horizontal"/>
+
+    <EditText
+        android:inputType="textPassword"
+        android:id="@+id/inicio_senha"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:textColor="@color/darkgrey"
+        android:textSize="28sp"
+        android:layout_marginTop="15dp"
+        android:hint="Password"
+        android:layout_gravity="center_horizontal"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="19dp"
+            android:paddingTop="10dp"
+            android:layout_weight="1"
+            android:text="Forgot Password?"
+            android:textColor="@color/cyan"
+            android:textSize="18sp"
+            android:layout_gravity="center_horizontal"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="LOGIN"
+            />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Not a member?"
+        android:textSize="15sp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/white"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="REGISTER NOW"
+        android:background="@color/cyan"
+        android:textSize="28sp"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"/>
+
+</LinearLayout>
